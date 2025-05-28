@@ -26,6 +26,8 @@ function getCycleDescription(number) {
     7: "Fase de introspecção, estudo, planejamento, fortalecimento interno.",
     8: "Fase de colher resultados, prosperidade, liderança material.",
     9: "Fase de encerramento de ciclos, desapego, finalizações e preparação para o novo.",
+    11: "Fase de iluminação, espiritualidade, despertar. Potencial de grande impacto através da inspiração. Exige equilíbrio interno.",
+    22: "Fase de construção de grandes estruturas ou ideias. Potencial para materializar visões coletivas com impacto global.",
   };
 
   return descriptions[number] || "Descrição não encontrada.";
