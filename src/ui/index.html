@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Numerológico</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mapa Numerológico</h1>
+
+      <div class="form">
+        <label
+          >Nome Completo:
+          <input type="text" id="name" placeholder="Digite seu nome completo" />
+        </label>
+
+        <label
+          >Data de Nascimento (DD/MM/AAAA):
+          <input type="text" id="birthdate" placeholder="Ex.: 24/06/1985" />
+        </label>
+
+        <button id="generateBtn">Gerar Mapa</button>
+      </div>
+
+      <div id="result" class="result"></div>
+    </div>
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
